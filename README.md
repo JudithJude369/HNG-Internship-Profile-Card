@@ -37,7 +37,7 @@ To fulfill the task requirements, I followed these steps:
 3. **JavaScript for Real-Time Data:** I used JavaScript to dynamically update the current date and  UTC time. I also added a function to handle errors, such as missing profile pictures or LinkedIn URLs.
 
 4. **GitHub Hosting:** I hosted the web page on GitHub Pages, making it accessible via the URL
-5. # [LIVE DEMO](https://judithjude369.github.io/HNG-Internship-Profile-Card/)
+    [LIVE DEMO](https://judithjude369.github.io/HNG-Internship-Profile-Card/)
    
   # Screenshot
 ![Profile-Card](https://github.com/user-attachments/assets/a074e987-0f47-4992-97ae-d2398db332ca)
