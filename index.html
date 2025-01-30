@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG-12 Intership | Stage 0 TASK | Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section>
+        <img
+          data-testid="profilePicture"
+          src="images/judith-jude.jpg"
+          alt="profile-photo"
+          width="512"
+          height="512"
+          class="img"
+        />
+        <h1 data-testid="fullName">Judith Jude</h1>
+        <h4 class="location" data-testid="currentLocation">
+          Imo State, Nigeria
+        </h4>
+        <p data-testid="shortBio">"Front-end developer and avid reader".</p>
+      </section>
+      <section>
+        <p>
+          Job Title:
+          <span data-testid="jobTitle">Front-end developer</span>
+        </p>
+        <p>
+          Email Adress:
+          <span data-testid="emailAddress">ifunanyajudith@rocketmail.com</span>
+        </p>
+        <p class="location">
+          UTC Time:
+          <span data-testid="currentUTCTime"></span>
+        </p>
+        <button class="btn">
+          <a
+            data-testid="socialLink"
+            href="https://www.linkedin.com/in/ifunanya-mmeremikwu-ab988b184/"
+            target="_blank"
+            >LINKEDIN URL</a
+          >
+        </button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

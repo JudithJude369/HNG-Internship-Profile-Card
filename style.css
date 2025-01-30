@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* CSS DESIGN USING MOBILE-FIRST APPROACH */
+:root {
+  /* Typography */
+  --FF: "Poppins", serif;
+  --FWH: 700;
+  --FWB: 400;
+  --FSB: 0.875rem;
+  --FSH: 1.5rem;
+
+  /* Primary-Colors */
+  --Green: hsl(75, 94%, 57%);
+
+  /* Neutral-Colors */
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-optical-sizing: auto;
+  font-family: var(--FF);
+  font-size: var(--FSB);
+  font-weight: var(--FWB);
+  color: var(--White);
+  background-color: var(--Off-Black);
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/* Content Styles */
+
+.container {
+  padding: 5em 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 1em;
+  font-size: var(--FSH);
+}
+
+.location {
+  color: var(--Green);
+  margin-bottom: 2em;
+}
+
+.img {
+  margin: 0 auto;
+  width: 30%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: var(--Grey);
+  padding: 1em 2em;
+  border: none;
+  border-bottom: solid var(--White);
+  cursor: pointer;
+}
+
+.btn a {
+  color: var(--White);
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: var(--Off-Black);
+  background-color: var(--Green);
+}
+
+.btn a:hover {
+  color: var(--Off-Black);
+}
+/* @media (min-width: 768px) {
+} */
+
+@media (min-width: 1024px) {
+  .img {
+    width: 20%;
+    height: 10%;
+  }
+}
