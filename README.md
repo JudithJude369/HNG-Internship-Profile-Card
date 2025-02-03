@@ -40,7 +40,8 @@ To fulfill the task requirements, I followed these steps:
     [LIVE DEMO](https://judithjude369.github.io/HNG-Internship-Profile-Card/)
    
   # Screenshot
-![Profile-Card](https://github.com/user-attachments/assets/a074e987-0f47-4992-97ae-d2398db332ca)
+![judith-jude](https://github.com/user-attachments/assets/40f9ca64-af8a-4ffe-abb8-669f810ed5fa)
+
 
 6. **Testing:** I tested the page thoroughly to ensure that all elements were displayed correctly, real-time data updated as expected, and error handling worked as intended. I used the data-testid attributes for testing.
 
