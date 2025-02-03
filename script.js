@@ -23,10 +23,10 @@ function handleErrors() {
     profileImage.alt = "Default Profile";
   };
 
-  const linkedinURL = document.querySelector('[ data-testid="socialLink"]');
-  linkedinURL.onerror = () => {
-    linkedinURL.textContent = "LINKEDIN URL Not Found"; // Provide error message
-    linkedinURL.href = "#"; // Remove the link
+  const URL = document.querySelector('[ data-testid="socialLink"]');
+  URL.onerror = () => {
+    URL.textContent = " URL Not Found"; // Provide error message
+    URL.href = "#"; // Remove the link
   };
 }
 
